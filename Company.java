@@ -1,9 +1,14 @@
+/**
+Creates a company object
+allows someone to get either company number or name
+*/
 public class Company {
 
   private int cNum;
   private String cName;
   private int employees;
-  
+
+  //creates company object
   public Company (int cNum, String cName) {
     this.cNum = cNum;
     this.cName = cName;
@@ -19,6 +24,6 @@ public class Company {
   //gets the company number
   public int getCNum() {
     return cNum;
-  }
+  }//end getCNum
   
 }//emd companies class

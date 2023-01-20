@@ -1,13 +1,18 @@
-
+/**
+@ author: Erin Finn
+main tester class to run program
+*/
 class Main {
 
 
     public static void main(String[] args) {
 
-      Party p1 = new Party();
-      p1.intro();
-      p1.loadStuff();
-      p1.setUp();
+      Party p1 = new Party();//creates new Party object
+      p1.intro();//calls into
+      p1.loadStuff();//calls load stuff
+      p1.setUp();//calls setUp
+      p1.seatGuests();//calls seatGuests
+      p1.results();//calls results
 
       
   }//emd public static main void
